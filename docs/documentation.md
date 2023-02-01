@@ -132,7 +132,7 @@ Still, you need a Python version >= 3.7, `numpy` >= 1.20.3, and `matplotlib` >= 
 
 # Software Organization
 ## High-level Overview of How the Software Is Organized:
-  <img src = "https://code.harvard.edu/CS107/team41/blob/main/docs/images/structure_tree_final.png" width=50% height= 30%>
+  <img src = "./images/structure_tree_final.png" width=50% height= 30%>
   
 There are 4 modules in this package: 
 - `AutoDiff.py`: This module includes an AutoDiff class which allows the user to initialize an AutoDiff object **f** with a function $f(x_1,x_2,...,x_m):\mathbb{R}^m\mapsto\mathbb{R}^n$. The user then can use this object to calculate the value and derivative of that function on the input with given values of $[x_1,x_2,...,x_m]$ . 
@@ -219,7 +219,7 @@ In mathematics, gradient descent is a first-order iterative optimization algorit
 
 In addition, the user can tune this method based on their own choice of learning rate `alpha`, convergence criteria `converge_threshold`, and maximum iteration `max_iter`. If `verbose=True`, the method will print out info about $\vec{x}$ and $f(\vec{x})$ every a few hundred iterations during the gradient descent process. Please note that the output may vary if the function has multiple local minimas and the user pick different initial guesses. 
 
-<img src = "https://code.harvard.edu/CS107/team41/blob/main/docs/images/gradient.png">
+<img src = "./images/gradient.png">
 
 - **Gradient**: $\nabla f(\vec{x_i})$ points to the direction of maximum
 - **Update**: $\vec{x_{i+1}} = \vec{x_i} - \alpha \nabla f(\vec{x_i})$, where $\alpha$ is the learning rate
@@ -242,7 +242,7 @@ def grad_descent(function, x0, alpha=1e-5, max_iter=int(1e6), converge_threshold
 # Future Feature: Neural Network Class
 In our future updates of this package, we are planning to include features to train a neural network. In every neural network, there are many weights that connect neurons between different layers. In a learning process, performance of the neural network is improved by finding the optimal weights. Neural networks are able to gradually increase accuracy with every training session, this can be accomplished  by the process of gradient descent.
 
- <img src = "https://code.harvard.edu/CS107/team41/blob/main/docs/images/neural%20network.png" width=50% height= 30%>
+ <img src = "./images/neural network.png" width=50% height= 30%>
  
 To achieve this in our future version, we will construct a multi-layer neural network, similar to what we did in pair programming of this course.  As we mentioned earlier, in gradient descent algorithm, our goal is to minimize the objective function of a differentiable function, which in this case is the loss function of the neural network. Since we’ve included gradient descent in our current version, we are just one step away from applying it to optimize the loss on a neural network.
 
