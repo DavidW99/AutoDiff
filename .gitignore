@@ -1,0 +1,14 @@
+**/__pycache__
+*.pyc
+.DS_Store
+
+*~
+*.bak
+*.swp
+*.zip
+
+.coverage
+*.ipynb
+*.ipynb_checkpoints
+*.pytest_cache
+

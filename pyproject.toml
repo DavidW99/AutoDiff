@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling", "numpy>=1.20.3", "Matplotlib>=3.4.3"]
+build-backend = "hatchling.build"
+
+[project]
+name = "cs107_AutoDiff"
+version = "1.0.4"
+authors = [
+  { name="Ziqing Luo", email="ziqingluo@g.harvard.edu" },
+  { name="Menghang Wang", email="menghangwang@g.harvard.edu"},
+  { name="Yingzi Wei", email="ywei@g.harvard.edu"},
+  { name="Peter Wu", email="pwu@g.harvard.edu"},
+  { name="Sophia Yang", email="yanruiyang@g.harvard.edu"}
+]
+description = "AutoDiff: An Automatic Differentiation package"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://code.harvard.edu/CS107/team41"
+"Bug Tracker" = "https://code.harvard.edu/CS107/team41"

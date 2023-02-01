@@ -1,0 +1,45 @@
+name: coverage
+on: 
+  push:
+    branches:
+      - main
+      - grad_descent
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  test_coverage: # test coverage job
+    name: test coverage
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v3
+        with:
+          python-version: '3.9'
+      - name: Install dependencies
+        run: 
+        #  pip install build
+          pip install pytest 
+          pip install pytest-cov
+          pip install numpy
+          pip install matplotlib
+#       - name: Build and install thhe project in the container (using PEP517/518)
+#         run: (python -m build --wheel && python -m pip install dist/*)    
+#       - name: Run tests and generate coverarge
+#         run: pytest --cov=AutoDiff tests/. --cov-report=xml
+#       - name: Run tests and generate coverarge html
+#         run: (cd tests && ./run_test.sh CI --cov=cs107_autodiff --cov-report=html:htmlcov)
+      - name: Run tests and check coverage
+        run: (cd tests && ./check_coverage.sh pytest)
+      - name: Run tests and generate coverarge html
+        run: (cd tests && ./run_test.sh CI --cov=AutoDiff --cov-report=html:htmlcov)
+        #../AutoDiff
+      - name: Clean .gitignore in coverage output
+        run: rm -f tests/htmlcov/.gitignore
+      - name: Deploy test coverage to Github page
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+            #folder: dist
+           folder: tests/htmlcov
+
