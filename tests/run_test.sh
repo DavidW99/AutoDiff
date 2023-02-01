@@ -1,22 +1,12 @@
 #!/usr/bin/env bash
 
 ## This script runs the test suite for the team41 project.
-#pytest test_ElementFunctions.py
-#pytest test_DualNumber.py
-# ## run a specific test
-# pytest test_ElementFunction.py -k test_sin
-# ##(run last failed test)
-# pytest test_ElementFunction.py --lf 
 
 tests=(
-    # test_other_things_on_root_level.py
-    #tests/
     test_AutoDiff.py
     test_DualNumber.py
     test_ElementFunction.py
     test_feature.py
-    # subpkg_2/test_module_3.py
-    # subpkg_2/test_module_4.py
 )
 
 # Must add the module source path because we use `import cs107_package` in
