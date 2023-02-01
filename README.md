@@ -9,7 +9,7 @@ The mathematical foundation behind this automatic differentiation package is dua
 
 ## Group Members: 
 
-Ziqing Luo, Menghang Wang, Vivian Wei, Peter Wu, Sophia Yang
+Ziqing Luo, Menghang(David) Wang, Vivian Wei, Peter Wu, Sophia Yang
 
 ## Installation
 To install the package, a user shall have a Python version >= 3.7, `numpy` >= 1.20.3 and `matplotlib` >= 3.4.3 as the basic requirement. This package is Operating System independent. 
