@@ -36,8 +36,8 @@ jobs:
         #../AutoDiff
       - name: Clean .gitignore in coverage output
         run: rm -f tests/htmlcov/.gitignore
-      - name: Deploy test coverage to Github page
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          folder: tests/htmlcov
+      # - name: Deploy test coverage to Github page
+      #   uses: JamesIves/github-pages-deploy-action@v4
+      #   with:
+      #     folder: tests/htmlcov
 
