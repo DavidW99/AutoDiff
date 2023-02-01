@@ -3,12 +3,13 @@
 [![.github/workflows/test.yml](https://github.com/DavidW99/AutoDiff/actions/workflows/test.yml/badge.svg)](https://github.com/DavidW99/AutoDiff/actions/workflows/test.yml)
 [![.github/workflows/coverage.yml](https://github.com/DavidW99/AutoDiff/actions/workflows/coverage.yml/badge.svg)](https://github.com/DavidW99/AutoDiff/actions/workflows/coverage.yml)
 
-More coverage report: [https://code.harvard.edu/pages/CS107/team41/](https://code.harvard.edu/pages/CS107/team41/)
+This package is the final project for AC207/CS107 of 2022 at Harvard. You may use this package to do automatic differentiation, gradient descent, regression, train a neural network, and other tasks which will use derivative. 
 
-## Harvard CS107 Team 41 Final Project
-Here is the link to our GitHub repo: [https://code.harvard.edu/CS107/team41](https://code.harvard.edu/CS107/team41)
+The mathematical foundation behind this automatic differentiation package is dual number. We basically overload the elementary operations and functions with this formulation. The purpose of thei package is instructional than functional, but the AutoDiff itself is quite robust with many testing. Enjoy your usage!
 
-## Group Members: Ziqing Luo, Menghang Wang, Vivian Wei, Peter Wu, Sophia Yang
+## Group Members: 
+
+Ziqing Luo, Menghang Wang, Vivian Wei, Peter Wu, Sophia Yang
 
 ## Installation
 To install the package, a user shall have a Python version >= 3.7, `numpy` >= 1.20.3 and `matplotlib` >= 3.4.3 as the basic requirement. This package is Operating System independent. 
@@ -69,3 +70,10 @@ Please refer to the [documentation](docs/documentation.md) here for more informa
 - **Broader Impact**: Automatic differentation is a far-reaching and profound tool that can be utilized in some way, shape, or form by scientists across the world. It can be used in training deep neural networks where one must continually compute the derivative of the loss function with respect to the weights for tasks like image classification or sentiment analysis, modeling differential equations to understand better fluid dynamics and different physical properties of liquids and gas we observe in the real world, and even practically in social sciences like economics where it is crucial to compute exact and precise measurements related to investment gains or losses. Everyone is able to take this software for replication or to improve upon it on their own. We stress though that this must be done in an ethical and transparent manner. Changes that ones make to the software should not substantially deter or prevent disadvantaged groups from contributing to the software in the future. For example, if one decides to adds new functions or tools to the software, it is paramount that one documents how and why they added to the existing software, and how one in the future is able to utilize these new tools. Furthermore, every change, however trivial, must be documented exactly. In order to promote a responsible and ethical environment, science empowers work to be made repeatable for anyone else to completely replicate.
 
 - **Inclusitivity**: Our team designed `AutoDiff` to be as inclusive and accessible to the broader community as possible. Everyone who contributes to the package or interacts with it must respectful and inclusive to everyone else using it at all times. We have a zero-tolerance policy on racism, sexism, ageism, or discimination of any kind against users using this package. We welcome a diverse and well-rounded set of opinions, fostered by continual discussion and respectful constructive criticism in improving the package. We encourage users to constantly ask questions about decisions made in the package in a respectful manner. We believe anyone, regardless of background, race, or gender, can contribute to the package in a meaningful and significant way. Pull requests will be evaluated anonymously by at least two developers to lessen any kinds of bias we may have, like unconscious bias or confirmation bias. All text must be understandable by non-native English speakers. Documentation must be clear and concise. Additionally, we have a zero-tolernace policy towards ethical or disciminatory uses of the package.
+
+## Team contribution
+
+This is the record for the team contribution as of the completion of the project
+
+<img src = "contribution_history.png" width=50% height= 30%>
+
