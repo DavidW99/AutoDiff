@@ -1,7 +1,7 @@
 # AutoDiff - An Automatic Differentiation Python Package
 
-[![.github/workflows/test.yml](https://code.harvard.edu/CS107/team41/actions/workflows/test.yml/badge.svg)](https://code.harvard.edu/CS107/team41/actions/workflows/test.yml)
-[![.github/workflows/coverage.yml](https://code.harvard.edu/CS107/team41/actions/workflows/coverage.yml/badge.svg)](https://code.harvard.edu/CS107/team41/actions/workflows/coverage.yml)
+[![.github/workflows/test.yml](https://github.com/DavidW99/AutoDiff/actions/workflows/test.yml/badge.svg)](https://github.com/DavidW99/AutoDiff/actions/workflows/test.yml)
+[![.github/workflows/coverage.yml](https://github.com/DavidW99/AutoDiff/actions/workflows/coverage.yml/badge.svg)](https://github.com/DavidW99/AutoDiff/actions/workflows/coverage.yml)
 
 More coverage report: [https://code.harvard.edu/pages/CS107/team41/](https://code.harvard.edu/pages/CS107/team41/)
 
