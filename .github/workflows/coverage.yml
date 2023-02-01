@@ -39,6 +39,5 @@ jobs:
       - name: Deploy test coverage to Github page
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-            #folder: dist
-           folder: tests/htmlcov
+          folder: tests/htmlcov
 
