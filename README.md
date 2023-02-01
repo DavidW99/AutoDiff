@@ -75,5 +75,5 @@ Please refer to the [documentation](docs/documentation.md) here for more informa
 
 This is the record for the team contribution as of the completion of the project
 
-<img src = "contribution_history.png" width=50% height= 30%>
+<img src = "docs/contribution_history.png" width=50% height= 30%>
 
