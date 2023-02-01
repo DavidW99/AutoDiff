@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
 ## This script runs the test suite for the team41 project.
-
 tests=(
     test_AutoDiff.py
     test_DualNumber.py
