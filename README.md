@@ -5,7 +5,7 @@
 
 This package is the final project for AC207/CS107 of 2022 at Harvard. You may use this package to do automatic differentiation, gradient descent, regression, train a neural network, and other tasks which will use derivative. 
 
-The mathematical foundation behind this automatic differentiation package is dual number. We basically overload the elementary operations and functions with this formulation. The purpose of thei package is instructional than functional, but the AutoDiff itself is quite robust with many testing. Enjoy your usage!
+The mathematical foundation behind this automatic differentiation package is dual number. We basically overload the elementary operations and functions with this formulation. The purpose of this package is instructional than functional, but the AutoDiff itself is quite robust with many testing. Enjoy your usage!
 
 ## Group Members: 
 
